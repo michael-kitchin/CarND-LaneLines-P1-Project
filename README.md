@@ -61,7 +61,7 @@ Example result (video):
 
 ### 3. Potential Shortcomings
 
-This approach is optimized for the supplied example videos, suggesting the following limitations:
+This capability is optimized for the supplied example videos, suggesting the following limitations:
 * Front-facing camera
 * Centrally-placed
 * Minimal occlusion and fouling
@@ -75,7 +75,7 @@ Conditions outside of the above will weaken or negate this capability.
 
 ### 4. Possible Improvements
 
-This approach's limitations are aggravated by minimal attention paid to optimizing the edge detection phases of the pipeline. 
+This capability's limitations are aggravated by minimal attention paid to optimizing the edge detection phases of the pipeline. 
 
 There is substantial opportunity in this phase for the following:
 * Lessening filtering requirements of the line-building phase, improving its overall effectiveness
