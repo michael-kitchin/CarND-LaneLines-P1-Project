@@ -1,0 +1,9 @@
+## I-J
+.idea/
+.idea_modules/
+out/
+*.iws
+*.iml
+
+## Jupyter
+.ipynb_checkpoints/
