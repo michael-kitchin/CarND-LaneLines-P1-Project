@@ -17,18 +17,20 @@ My goal was to build on edge detection techniques prototyped in earlier sections
 Towards that end, I chose to stick with the default edge detection algorithm parameters used before (e.g., a gaussian blur kernel size of 5) rather than divide attention from the stated objective. There is substantial opportunity to optimize these parameters, however that would be valuable to explore.    
 
 My chosen approach induced challenges such as spurious, odd-angled lines found in the "challenge.mp4" video. These were great opportunities to drill down on important aspects of this capability such as line filtering with (in my opinion) good, overall results
-
  
 ### 2. Processing Pipeline 
 
-
 My pipeline consisted of the following steps: 
 1. Conversion of input frame to grayscale
-![Grayscale Frame][test_images_output/soldYellowCurve/1_grayscale_solidYellowCurve.png]
+![Grayscale](test_images_output/solidYellowCurve/1_grayscale_solidYellowCurve.png)
 2. Gaussian blur
+![Gaussian](test_images_output/solidYellowCurve/2_gaussian_solidYellowCurve.png)
 3. Canny edge detection
+![Canny](test_images_output/solidYellowCurve/3_canny_solidYellowCurve.png)
 4. Masking to a bottom-center, quadrilateral area
+![Masked](test_images_output/solidYellowCurve/4_masked_solidYellowCurve.png)
 5. Hough transform and line generation, as follows:
+![Hough](test_images_output/solidYellowCurve/5_hough_solidYellowCurve.png)
     1. First drawing all *detected* lines in RED
     2. Then drawing all *averaged* lane edges in BLUE, as follows:
         1. Computing line slope
@@ -50,26 +52,12 @@ My pipeline consisted of the following steps:
             2. Computing top-edge intercepts
             3. Drawing lines from bottom to top-edge intercepts
 6. Compositing an output frame from results of the above
-                            
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
+![Stacked](test_images_output/solidYellowCurve/_stacked_solidYellowCurve.png)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
 
