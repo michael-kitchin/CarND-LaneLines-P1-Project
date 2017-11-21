@@ -80,3 +80,5 @@ This approach's limitations are aggravated by minimal attention paid to optimizi
 There is substantial opportunity in this phase for the following:
 * Lessening filtering requirements of the line-building phase, improving its overall effectiveness
 * Adapting to important environmental variations such as sun angle (e.g., shadows, glare)
+
+Additionally, project code could be more modular with better commentary. 
