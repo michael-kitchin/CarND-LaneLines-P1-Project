@@ -12,11 +12,11 @@ The goals / steps of this project are the following:
 
 ### 1. Goals
  
-My goal was to build on edge detection techniques prototyped in earlier sections of the project by providing the best lane edge line-building capabilities I could in the time provided. 
+My goal was to build on edge detection techniques prototyped in earlier sections of the project by providing the best line-building capabilities I could in the time provided. 
 
 Towards that end, I chose to stick with the default edge detection algorithm parameters used before (e.g., a gaussian blur kernel size of 5) rather than divide attention from the stated objective. There is substantial opportunity to optimize these parameters that would be valuable to explore, however.    
 
-My chosen approach induced challenges such as spurious, odd-angled lines found in the "challenge.mp4" video. These were great opportunities to drill down on important aspects of this capability such as line filtering with (in my opinion) good, overall results
+My chosen approach induced challenges such as spurious, odd-angled lines found in the "challenge.mp4" video. These were great opportunities to drill down on important aspects of this capability such as line filtering with (in my opinion) good, overall results.
  
 ### 2. Processing Pipeline 
 
