@@ -68,7 +68,7 @@ This capability is optimized for the supplied example videos, suggesting the fol
 * Specific speeds of travel and lane orientation 
 * Specific times of day and sun position (i.e., no shadows or glare)
 * Specific road surfaces and conditions
-* Specific vertical deflection, field-of-view and other characteristics
+* Specific vertical deflection, field-of-view, frame rates, and other camera characteristics
 
 Conditions outside of the above will weaken or negate this capability.
 
