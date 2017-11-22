@@ -53,7 +53,7 @@ My pipeline consisted of the following steps:
                     2. Mean bottom-edge intercepts
                 2. Computing top-edge intercepts
                 3. Drawing lines from bottom to top-edge intercepts
-    6. Compositing an output frame from results of the above
+    2. Compositing an output frame from results of the above:
     ![Stacked](test_images_output/solidYellowCurve/_stacked_solidYellowCurve.png)
 
 Example result (video):
