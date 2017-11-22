@@ -62,12 +62,11 @@ Example result (video):
 ### 3. Potential Shortcomings
 
 This capability is optimized for the supplied example videos, suggesting the following limitations:
-* Front-facing camera
-* Centrally-placed
-* Minimal occlusion and fouling
-* Stable, vibration-damped mounting
+* Front-facing, centrally-mounted camera
+* Stable, vibration-damped camera mounting
+* Minimal camera lens occlusion and fouling
 * Specific speeds of travel and lane orientation 
-* Specific times of day and sun position (i.e., not head-on)
+* Specific times of day and sun position (i.e., no shadows or glare)
 * Specific road surfaces and conditions
 * Specific vertical deflection, field-of-view and other characteristics
 
