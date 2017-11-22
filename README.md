@@ -22,13 +22,13 @@ My chosen approach induced challenges such as spurious, odd-angled lines found i
 
 My pipeline consisted of the following steps:
 1. Edge detection, including the following: 
-    1. Conversion of input frame to grayscale
+    1. Conversion of input frame to grayscale:
     ![Grayscale](test_images_output/solidYellowCurve/1_grayscale_solidYellowCurve.png)
-    2. Gaussian blur
+    2. Gaussian blur:
     ![Gaussian](test_images_output/solidYellowCurve/2_gaussian_solidYellowCurve.png)
-    3. Canny edge detection
+    3. Canny edge detection:
     ![Canny](test_images_output/solidYellowCurve/3_canny_solidYellowCurve.png)
-    4. Masking to a bottom-center, quadrilateral area
+    4. Masking to a bottom-center, quadrilateral area:
     ![Masked](test_images_output/solidYellowCurve/4_masked_solidYellowCurve.png)
 2. Line building, including the following:
     1. Hough transform and line generation, as follows:
