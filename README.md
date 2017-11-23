@@ -56,10 +56,7 @@ My pipeline consisted of the following steps:
     2. Compositing an output frame from results of the above:
     ![Stacked](test_images_output/solidYellowCurve/_stacked_solidYellowCurve.png)
 
-Example result (video):
-![Result](test_videos_output/challenge.mp4)
-
-See all example results:
+Example output videos:
 * ![test_videos_output](https://github.com/michael-kitchin/CarND-LaneLines-P1-Project/tree/master/test_videos_output)
 
 ### 3. Potential Shortcomings
